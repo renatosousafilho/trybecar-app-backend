@@ -1,0 +1,12 @@
+### Listar passageiros
+GET http://localhost:3001/passengers
+
+### Cadastro de passageiros
+POST http://localhost:3001/passengers
+Content-Type: application/json
+
+{
+    "name": "João",
+    "email": "joao@mail.com",
+    "password": "123456"
+}
